@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Inscripcion en linea</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <img src="img/logo.png" alt="">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">El club</a></li>
+                <li><a href="">Actividades</a></li>
+                <li><a href="">Torneo</a></li>
+                <li><a href="">Inscripcion en linea</a></li>
+                <li><a href="">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contenido">
+        <div class="texto">
+            <p>El judo, o camino hacia la flexibilidad, fue creado por el maestro japonés Jigorō Kanō en 1882, conocido en ese entonces como Kano-Ryu-Jujutsu, y enriquecido por 
+              el maestro Kyuzo Mifune después de la muerte de Jigoro Kano, período en el que Mifune consolidó la técnica y elegancia con la que se conoce al judo hoy día. El maestro Kano
+              recopiló la esencia técnica (proyecciones, luxaciones, inmovilizaciones, estrangulaciones, desarmes y golpes) y táctica (desplazamientos, posicionamientos, transiciones, métodos
+              de respiración, etc.) de dos de las antiguas escuelas clásicas de combate cuerpo a cuerpo japonés medievales, adaptándolas a la simulación de un combate deportivo (randori) en tiempo real. 
+              Nótese que hasta finales del siglo XIX estas técnicas eran enseñadas sin entrar en combate activo, pues varias de estas (como las luxaciones a las rodillas, a la cadera, el cuello o a la columna) se consideraban 
+              demasiado peligrosas para ser incluidas en un formato deportivo. El maestro Kano experimentó, seleccionó y estructuró las técnicas que podían aplicarse en un combate deportivo sin un alto riesgo de 
+              lesiones.
+            </p>
+        </div>
+       <div class="formulario">
+          <form action="">
+              <h2>INSCRIBETE</h2>
+              <fieldset>
+                <legend>Datos Personales</legend>
+                <br>
+                <label for="">Nombres</label>
+                <input class="input" type="text" placeholder="Escriba sus nombres" required>
+                <label for="">Apellidos</label>
+                <input class="input" type="text" placeholder="Escriba sus nombres" required>
+                <label for="">Fecha de Nacimiento</label>
+                <input class="date" type="date" required>
+                <label for="">Edad</label>
+                <input class="input" type="number" required>
+                <label for="">Genero</label>
+                <input class="radios" name="genero"  type="radio" checked><p>Hombre</p>
+                <input class="radios" name="genero" type="radio"><p>Mujer</p>
+                <br>
+                <br>
+                <label for="">Correo</label>
+                <input class="input" type="text" placeholder="Escriba su correo" required>
+                <label for="">Departamento</label>
+                <select class="input" name="" id="">
+                    <option value="">San Salvador</option>
+                    <option value="">Cuscaltan</option>
+                    <option value="">La Paz</option>
+                </select>
+                <label for="">Descripicion</label>
+               <textarea class="input" name="" id="" cols="30" rows="10" required></textarea>
+               <input class="submit" type="submit">
+              </fieldset>
+          </form>
+       </div>
+
+    </section>
+    <footer>
+        <img class="face" src="img/logo2.png" alt="">
+        <img class="ig"  src="img/logo3.png" alt="">
+        <img class="you" src="img/logo4.png" alt="">
+        <p>Todos los derechos reservados | Diseñado por Yael Adonay Matamoros Guzman</p>
+    </footer>
+    
+</body>
+</html>
